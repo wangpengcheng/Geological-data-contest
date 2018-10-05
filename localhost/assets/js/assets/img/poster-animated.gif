@@ -1,0 +1,985 @@
+﻿<!DOCTYPE html>
+<!-- HTML5 Boilerplate -->
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head id="Head1">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="cleartype" content="on" />
+    <meta http-equiv="Cache-Control" content="Public" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-site-verification" content="fBXz0-oSO4hFHWpxEHZV4Vj7zb4vnpzHzcnvcHpZc74" />
+    <link rel="stylesheet" type="text/css" href="https://www.gsmlondon.ac.uk/css/html5reset.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="https://www.gsmlondon.ac.uk/css/responsivegridsystem.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="https://www.gsmlondon.ac.uk/css/responsivegridsystemextras.css" />
+    <link rel="stylesheet" type="text/css" href="https://www.gsmlondon.ac.uk/css/colorbox.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="https://www.gsmlondon.ac.uk/css/cols.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="https://www.gsmlondon.ac.uk/css/1024.css" media="only screen and (min-width: 981px)" />
+    <link rel="stylesheet" type="text/css" href="https://www.gsmlondon.ac.uk/css/768.css" media="only screen and (max-width: 980px) and (min-width: 742px)" />
+    <link rel="stylesheet" type="text/css" href="https://www.gsmlondon.ac.uk/css/600.css" media="only screen and (max-width: 741px) and (min-width: 481px)" />
+    <link rel="stylesheet" type="text/css" href="https://www.gsmlondon.ac.uk/css/480.css" media="only screen and (max-width: 480px)" />
+    <link rel="stylesheet" type="text/css" href="https://www.gsmlondon.ac.uk/css/font-awesome.min.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="https://www.gsmlondon.ac.uk/css/stag-medium.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="https://www.gsmlondon.ac.uk/css/responsiveslides.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="https://www.gsmlondon.ac.uk/css/flexslider.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="https://www.gsmlondon.ac.uk/css/zozo.tabs.min.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="https://www.gsmlondon.ac.uk/css/zozo.tabs.responsive.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="https://www.gsmlondon.ac.uk/css/sky-forms.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="https://www.gsmlondon.ac.uk/css/sky-forms-black.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="https://www.gsmlondon.ac.uk/css/extra.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="https://www.gsmlondon.ac.uk/css/gsmstyle.css" media="all" />
+    <link id="Link1" rel="stylesheet" href="https://www.gsmlondon.ac.uk/cssppc/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="https://www.gsmlondon.ac.uk/css/megmen.css" media="all" />
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic|Raleway:300,500,800|Source+Sans+Pro:100,300,400,600,700,900"
+        rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900"
+        rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="
+        crossorigin="anonymous"></script>
+    <script src="https://www.gsmlondon.ac.uk/js/plugins.js" type="text/javascript"></script>
+    <script src="https://www.gsmlondon.ac.uk/js/slides.js" type="text/javascript"></script>
+    <script src="https://www.gsmlondon.ac.uk/js/modernizr-2.5.3-min.js" type="text/javascript"></script>
+    <style>
+        .no-hover
+        {
+            background-color: #fff !important;
+            cursor: default !important;
+        }
+        .tweet_wrap
+        {
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+        .cream-watermark1
+        {
+            background: url(images/cream-bg-g.png) no-repeat top right #E3E0E0;
+            min-height: 115px;
+        }
+        .flexslider .slides img
+        {
+            width: auto;
+        }
+        .flex-active-slide i
+        {
+            float: none !important;
+            color: inherit !important;
+        }
+        body
+        {
+            overflow: inherit !important;
+        }
+        .call-us-content li:hover
+        {
+            background-color: #fff !important;
+        }
+        .call-us-content .firstPhone:hover
+        {
+            background-color: #f4f4f4 !important;
+        }
+        #txtSearch
+        {
+            width: 95% !important;
+        }
+        .button.actionButton svg
+        {
+            width: 22px;
+            height: 22px;
+            fill: #666 !important;
+        }
+        .button svg
+        {
+            width: 22px;
+            height: 22px;
+            fill: #fff !important;
+        }
+        .button.actionButton:hover
+        {
+            background: #f1f1f1;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        }
+        .panel svg
+        {
+            fill: #666;
+        }
+        .my-gsm, .call-us
+        {
+            margin-right: 0;
+        }
+        .my-gsm-content a i, .call-us-content a i
+        {
+            color: #CCC;
+            background: #EFF0EB;
+            padding: 7px;
+            font-size: 20px;
+        }
+        .my-gsm-content, .call-us-content
+        {
+            display: none;
+            background: #fff;
+            border-top: 1px solid #eee;
+            border-left: 1px solid #eee;
+            border-right: 1px solid #eee;
+            width: 320px;
+            position: absolute;
+            top: 80px;
+            z-index: 997;
+        }
+        .my-gsm-content ul, .call-us-content ul
+        {
+            margin: 0;
+            padding: 0;
+        }
+        .my-gsm-content ul li, .call-us-content ul li
+        {
+            list-style: none;
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        .my-gsm-content ul li:hover, .call-us-content ul li:hover
+        {
+            background-color: #f4f4f4;
+        }
+        .my-gsm-content ul.fallback li i, .call-us-content ul.fallback li i
+        {
+            background: none;
+            float: right;
+            padding: 0;
+            font-size: 14px;
+        }
+        .my-gsm-content ul li a, .call-us-content ul li a
+        {
+            color: #000;
+        }
+        .my-gsm-content ul li a:hover, .call-us-content ul li a:hover
+        {
+            color: #000;
+        }
+        span.triangle
+        {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 10px 10px;
+            border-color: transparent transparent #000;
+            position: absolute;
+            top: -10px;
+        }
+        .call-us-content ul li
+        {
+            display: block !important;
+            font-size: 12px !important;
+            text-align: left !important;
+            color: #000 !important;
+        }
+        .call-us-content .triangle
+        {
+            right: 95px;
+        }
+        .call-us-content
+        {
+            top: 34px !important;
+            right: 260px;
+        }
+        div#hs-eu-cookie-confirmation
+        {
+            position: fixed !important;
+            bottom: 0 !important;
+        }
+        .desktop-hide
+        {
+            display: none !important;
+        }
+        @media only screen and (min-width: 320px) and (max-width: 1199px)
+        {
+            .desktop-hide
+            {
+                display: inline-block !important;
+            }
+        }
+        .error-title
+        {
+            height: 70px;
+            font-size: 33px;
+            letter-spacing: -2px;
+            padding-top: 25px;
+            font-weight: 700;
+            color: #a80139;
+        }
+        .error-sub
+        {
+            font-size: 19px;
+            color: #666;
+            padding-bottom: 20px;
+        }
+        .error-text
+        {
+            padding-bottom: 20px;
+        }
+        .error-text ul
+        {
+            padding: 0;
+            margin: 0;
+        }
+        .error-text ul li
+        {
+            display: block;
+            padding: 3px 0;
+        }
+        .error-text ul li a
+        {
+            color: #999;
+            font-size: 15px;
+            text-decoration: underline;
+        }
+        .error-text ul li i
+        {
+            color: #a80139;
+            float: left;
+            padding-right: 10px;
+            padding-top: 3px;
+        }
+        .error-text p
+        {
+            font-size: 14px;
+            color: #999;
+            padding-bottom: 12px;
+        }
+        .error-text p a
+        {
+            text-decoration: underline;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <style>
+        .mainMenu li
+        {
+            display: block !important;
+        }
+        .subMenu li
+        {
+            display: block !important;
+        }
+        .mainMenu a
+        {
+            color: #000 !important;
+        }
+        .subMenu a
+        {
+            color: #000 !important;
+        }
+        .sidebar
+        {
+            left: auto;
+        }
+        .grid [class*="col-"]
+        {
+            display: block;
+            width: 100%;
+            padding-left: 2% !important;
+            padding-right: 2% !important;
+            float: left;
+        }
+    </style>
+    <nav class="sidebar" data-sidebar-id="1">
+        <div class="close">
+            <svg>
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close">
+                </use></svg>
+        </div>
+        <div class="content">
+            <a href="./" id="A4" class="logo" style="float: left;">
+                <img src="https://www.gsmlondon.ac.uk/assets/img/logo-gsm02.png" id="Img1" /></a>
+            <div style="clear: both;">
+            </div>
+            <ul class="mainMenu" style="border-top: solid 1px #dedede; padding-top: 18px;">
+                <li><a href="https://www.gsmlondon.ac.uk/all-courses">Courses</a></li>
+                <li><a href="https://www.gsmlondon.ac.uk/">Why GSM London</a></li>
+                <li><a href="https://www.gsmlondon.ac.uk/student-life">Student life</a></li>
+            </ul>
+            <ul class="subMenu">
+                <li style="color: #3a3a3a; font-family: Arial;"><i class="fa fa-phone"></i>&nbsp;<span
+                    class="rTapNumber116046">020 8516 7850</span></li>
+                <li class="mobile-show"><a href="https://www.gsmlondon.ac.uk/about-us" target="_self">
+                    About GSM London</a> </li>
+                <li class="mobile-show"><a href="https://www.gsmlondon.ac.uk/current-students" target="_self">
+                    Current Students</a> </li>
+                <li class="mobile-show"><a href="https://www.gsmlondon.ac.uk/campuses" target="_self">
+                    Campuses</a> </li>
+                <li><a href='https://connect.gsmlondon.ac.uk/ops-gen-enquiry-lp' target="_blank">Contact
+                    us</a></li>
+            </ul>
+            <div style="border-top: solid 1px #e1e1e1; padding-top: 6px;">
+                <div class="smallmanutop">
+                    <a href="mailto:enquiry@gsmlondon.ac.uk" target="_blank">
+                        <img src="images/mail-icn1.png" id="Img2" /></a></div>
+                <div class="smallmanutop">
+                    <a href="https://twitter.com/GSMLondon" target="_blank">
+                        <img src="assets/img/tw-sq.png" id="Img3" /></a></div>
+                <div class="smallmanutop">
+                    <a href="https://en-gb.facebook.com/GSMLondon" target="_blank">
+                        <img src="assets/img/fb-sq.png" id="Img4" /></a></div>
+                <div class="smallmanutop">
+                    <a href="https://www.youtube.com/gsmlondon" target="_blank">
+                        <img src="images/you-tub-icn1.png" id="Img5" /></a></div>
+                <div class="smallmanutop">
+                    <a href="https://plus.google.com/u/0/115131258856699313309/posts" target="_blank">
+                        <img src="assets/img/goog-sq.png" id="Img6" /></a></div>
+                <div class="smallmanutop">
+                    <a href="https://www.linkedin.com/groups/GSoM-Greenwich-School-Management-London-2677536/about"
+                        target="_blank">
+                        <img src="assets/img/li-sq.png" id="Img7" /></a></div>
+                <div class="smallmanutop">
+                    <a href="https://www.gsmlondon.ac.uk/blog/" target="_blank">
+                        <img src="assets/img/blog-sq.png" /></a></div>
+            </div>
+        </div>
+    </nav>
+    <div id="wrapper">
+        <div class="hmeHeadr">
+            <div class="menubacker hide1199" style="display: block; height: 39px;">
+                <div class="sections desktop" style="max-width: 1200px; margin: auto;">
+                    <div class="fix-12-12b" style="text-align: right; display: block; padding-top: 4px;">
+                        <ul class="menu right top-bar" style="color: #d1d1d1; padding-left: 0px; position: relative;
+                            text-align: right!important; padding-top: 5px;">
+                            <li style="font-size: 12px; padding: 0px 20px; border-right: 1px solid #ccc; margin-right: 0px;
+                                margin-left: 0px; letter-spacing: 0px; opacity: .6;"><a href="https://www.gsmlondon.ac.uk/about-us"
+                                    target="_self">About GSM London</a></li>
+                            <li style="font-size: 12px; padding: 0px 20px; border-right: 1px solid #ccc; margin-right: 0px;
+                                margin-left: 0px; letter-spacing: 0px; opacity: .6;"><a href="https://www.gsmlondon.ac.uk/current-students"
+                                    target="_self">Current Students</a></li>
+                            <li style="font-size: 12px; padding: 0px 20px; border-right: 1px solid #ccc; margin-right: 0px;
+                                margin-left: 0px; letter-spacing: 0px; opacity: .6;"><a href="https://www.gsmlondon.ac.uk/campuses"
+                                    target="_self">Campuses</a></li>
+                            <li style="font-size: 12px; padding: 0px 20px; border-right: 1px solid #ccc; margin-right: 0px;
+                                margin-left: 0px; letter-spacing: 0px; opacity: .6;"><a href="https://www.gsmlondon.ac.uk/contact-us"
+                                    target="_self">Contact us</a></li>
+                            <li style="font-size: 24px; margin-right: 28px; font-family: Montserrat!important;
+                                padding: 9px 10px; position: relative; top: 1px; color: #000;" class="call-us1">
+                                <span style="font-size: 22px; opacity: .6;"><i class="fa fa-phone"></i></span>&nbsp;
+                                <span class="rTapNumber116046">020 8516 7850</span> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Panel top -->
+            <nav class="panel top small forceMobileView keyliner" style="border-top: solid 0px #e1e1e1;
+                padding-bottom: 0px; opacity: 1.0; position: absolute; padding: 33px 0 0 0;">
+                <div class="sections desktop" style="max-width: 1200px; margin: auto;">
+                    <div class="left">
+                        <a href="./">
+                            <img src="https://www.gsmlondon.ac.uk/images/logocol.png" /></a>
+                    </div>
+                    <div class="right" style="vertical-align: top; width: 100%;">
+                        <div class="linktext hide96" style="padding-bottom: 5px; margin-right: 32px;">
+                            <nav id="cbp-hrmenu" class="cbp-hrmenu megmen hide1199">
+                                <ul>
+                                    <li class="dropdown-menu"><a id="rptrMenu_aNavLink_0">Is a degree for me?</a>
+                                        <div class="cbp-hrsub">
+                                            <div class="cbp-hrsub-inner">
+                                                <div id="rptrMenu_divFirst_0">
+                                                    <input name="ctl00$rptrMenu$ctl00$hdnNavId" id="rptrMenu_hdnNavId_0" value="602"
+                                                        type="hidden">
+                                                </div>
+                                                <div id="rptrMenu_divSecond_0">
+                                                    <ul id="rptrMenu_rptrChild_0_ulSecond_0">
+                                                        <h4>
+                                                            <a href="https://www.gsmlondon.ac.uk/why-take-a-degree-">Why take a degree?</a></h4>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/progress-your-career">Progress your career</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/build-your-business">Build your business</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/increase-your-earnings">Increase your earnings</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/boost-your-confidence">Boost your confidence</a></li>
+                                                    </ul>
+                                                    <ul id="rptrMenu_rptrChild_0_ulSecond_1">
+                                                        <h4>
+                                                            <a href="https://www.gsmlondon.ac.uk/how-can-i-finance-it-">How can I finance it?</a></h4>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/undergraduate-funding">Student loans (tuition
+                                                            fee and maintenance loans)</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/how-long-does-it-take-to-get-finance-approved-">
+                                                            How long does it take to get finance approved?</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/what-happens-if-i’ve-had-finance-previously-">
+                                                            What happens if I've had finance previously?</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/managing-your-finances-budget-tips">Managing
+                                                            your finances - budget tips</a></li>
+                                                    </ul>
+                                                    <ul id="rptrMenu_rptrChild_0_ulSecond_2">
+                                                        <h4>
+                                                            <a href="https://www.gsmlondon.ac.uk/can-i-do-it-">Can I do it?</a></h4>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/where-there%e2%80%99s-a-will-there%e2%80%99s-a-way">
+                                                            Where there's a will, there's a way</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/it%e2%80%99s-never-too-late-to-study-for-a-degree">
+                                                            It's never too late to study for a degree</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/start-a-degree-based-on-your-work-experience">
+                                                            Start a degree based on your work experience</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/balancing-work-and-study">Balancing work and
+                                                            study</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/managing-family-life-and-study">Managing family
+                                                            life and study</a></li>
+                                                    </ul>
+                                                    <ul id="rptrMenu_rptrChild_0_ulSecond_3">
+                                                        <h4>
+                                                            <a href="https://www.gsmlondon.ac.uk/how-do-i-make-it-happen-">How do I make it happen?</a></h4>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/making-an-application">Making an application</a></li>
+                                                        <li><a href="https://connect.gsmlondon.ac.uk/ops-gen-ca-consultation-form">We're here
+                                                            to help</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/information-advice-and-guidance">Information,
+                                                            advice and guidance</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown-menu"><a id="rptrMenu_aNavLink_1">Courses</a>
+                                        <div class="cbp-hrsub">
+                                            <div class="cbp-hrsub-inner">
+                                                <div id="rptrMenu_divFirst_1">
+                                                    <input name="ctl00$rptrMenu$ctl01$hdnNavId" id="rptrMenu_hdnNavId_1" value="553"
+                                                        type="hidden">
+                                                </div>
+                                                <div id="rptrMenu_divSecond_1">
+                                                    <ul id="rptrMenu_rptrChild_1_ulSecond_0">
+                                                        <h4>
+                                                            <a href="https://www.gsmlondon.ac.uk/undergraduate/all-degrees">Undergraduate degrees</a></h4>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/undergraduate/accounting-and-finance/bsc-hons-accounting-and-finance">
+                                                            BSc (Hons) Accounting and Finance</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/undergraduate/business-management/bsc-hons-business-management">
+                                                            BSc (Hons) Business Management</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/undergraduate/business-management/bsc-hons-business-management-with-creative-industries">
+                                                            BSc (Hons) Business Management with Creative Industries</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/undergraduate/business-management/bsc-hons-business-management-with-e-commerce">
+                                                            BSc (Hons) Business Management with E-commerce</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/undergraduate/economics/bsc-hons-economics">
+                                                            BSc (Hons) Economics</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/undergraduate/enterprise-and-small-business-development/bsc-hons-enterprise-and-small-business-development">
+                                                            BSc (Hons) Enterprise and Small Business Development</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/undergraduate/events-management/bsc-hons-events-and-entertainment-management">
+                                                            BSc (Hons) Events and Entertainment Management</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/undergraduate/human-resources/bsc-hons-human-resources-with-management">
+                                                            BSc (Hons) Human Resources with Management</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/undergraduate/law/llb-hons-">LLB Law</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/undergraduate/marketing/bsc-hons-marketing">
+                                                            BSc (Hons) Marketing</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/undergraduate/oil-and-gas-management/bsc-hons-oil-and-gas-management">
+                                                            BSc (Hons) Oil and Gas Management</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/undergraduate/business-management/bsc-hons-professional-management">
+                                                            BSc (Hons) Professional Management</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/undergraduate/travel-and-tourism/bsc-hons-travel-and-tourism">
+                                                            BSc (Hons) Travel and Tourism</a></li>
+                                                    </ul>
+                                                    <ul id="rptrMenu_rptrChild_1_ulSecond_1">
+                                                        <h4>
+                                                            <a href="https://www.gsmlondon.ac.uk/postgraduate/all-degrees">Postgraduate degrees</a></h4>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/postgraduate/business-administration/executive-master-of-business-administration">
+                                                            Executive MBA</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/postgraduate/business-administration/mba">MBA</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/postgraduate/mba-digital-innovation-">MBA (Digital
+                                                            Innovation)</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/postgraduate/mba-islamic-finance-">MBA (Islamic
+                                                            Finance)</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/postgraduate/mba-oil-and-gas-management-">MBA
+                                                            (Oil and Gas Management)</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/postgraduate/mba-in-energy-and-sustainability">
+                                                            MBA in Energy and Sustainability</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/postgraduate/law/llm-international-law">LLM
+                                                            International Law</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/postgraduate/economics/msc-applied-economics-and-finance">
+                                                            MSc Applied Economics and Finance</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/postgraduate/events-management/msc-events-and-entertainment">
+                                                            MSc Events and Entertainment</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/postgraduate/human-resources/msc-hr-practice">
+                                                            MSc HR Practice</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/postgraduate/management-and-leadership/msc-leading-and-managing-within-health-and-social-care">
+                                                            MSc Leading and Managing within Health and Social Care</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/postgraduate/oil-and-gas-management/msc-oil-and-gas-management">
+                                                            MSc Oil and Gas Management</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/postgraduate/procurement-purchasing-and-supply/msc-procurement-and-supply-chain-management">
+                                                            MSc Procurement and Supply Chain Management</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/postgraduate/travel-and-tourism/msc-travel-and-tourism">
+                                                            MSc Travel and Tourism</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/postgraduate/management-and-leadership/msc-professional-leadership">
+                                                            MSc Professional Leadership</a></li>
+                                                    </ul>
+                                                    <ul id="rptrMenu_rptrChild_1_ulSecond_2">
+                                                        <h4>
+                                                            <a href="https://www.gsmlondon.ac.uk/professional/all-courses">Short courses</a></h4>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/english-language/english-language-programme/ielts-preparation">
+                                                            IELTS Preparation</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/english-language/english-language-programme/english-for-university">
+                                                            English for University</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/english-language/english-language-programme/general-english">
+                                                            General English</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/professional/marketing/dmi-certified-digital-marketing-professional-qualification-version7">
+                                                            Digital Marketing</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/professional/travel-and-tourism">Travel and
+                                                            Tourism</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/professional/gds-fares-and-ticketing-in-sabre">
+                                                            GDS Fares and Ticketing in Sabre</a></li>
+                                                    </ul>
+                                                    <ul id="rptrMenu_rptrChild_1_ulSecond_3">
+                                                        <h4>
+                                                            <a href="https://www.gsmlondon.ac.uk/tuition-fees-and-funding">Fees and Funding</a></h4>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/undergraduate-fees">Undergraduate fees</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/undergraduate-funding">Undergraduate funding</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/postgraduate-fees">Postgraduate fees</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/postgraduate-funding">Postgraduate funding</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/what-happens-if-i’ve-had-finance-previously-">
+                                                            Previous study funding</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown-menu"><a id="rptrMenu_aNavLink_2">Why GSM London</a>
+                                        <div class="cbp-hrsub">
+                                            <div class="cbp-hrsub-inner">
+                                                <div id="rptrMenu_divFirst_2">
+                                                    <input name="ctl00$rptrMenu$ctl02$hdnNavId" id="rptrMenu_hdnNavId_2" value="413"
+                                                        type="hidden">
+                                                </div>
+                                                <div id="rptrMenu_divSecond_2">
+                                                    <ul id="rptrMenu_rptrChild_2_ulSecond_0">
+                                                        <h4>
+                                                            <a href="https://www.gsmlondon.ac.uk/why-gsm-london">Why GSM London</a></h4>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/gsm-london-commended-by-the-qaa">Commended
+                                                            by the QAA</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/undergraduate/integrated-foundation-year">Start
+                                                            a degree without formal qualifications</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/graduate-in-two-years">Graduate in just two
+                                                            years</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/about-us/degrees-awarded-by-the-university-of-plymouth">
+                                                            Degrees awarded by the University of Plymouth</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/enhance-your-employability">Careers and enterprise
+                                                            support</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/outstanding-student-support">Outstanding student
+                                                            support</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/lower-fees-our-fees-are-up-to-33-less">Lower
+                                                            fees. Our fees are up to 33% less</a></li>
+                                                    </ul>
+                                                    <ul id="rptrMenu_rptrChild_2_ulSecond_1">
+                                                        <h4>
+                                                            <a href="https://www.gsmlondon.ac.uk/teaching-and-learning-with-a-difference">Teaching
+                                                                and learning with a difference</a></h4>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/strengths-based-learning">Strengths-based learning</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/personal-tutoring">Personal tutoring</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/practical-projects">Practical projects</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/active-learning-methods">Active learning methods</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/welcome-from-the-executive-dean">Meet our Executive
+                                                            Dean and Faculty</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown-menu"><a id="rptrMenu_aNavLink_3">Student life</a>
+                                        <div class="cbp-hrsub">
+                                            <div class="cbp-hrsub-inner">
+                                                <div id="rptrMenu_divFirst_3">
+                                                    <input name="ctl00$rptrMenu$ctl03$hdnNavId" id="rptrMenu_hdnNavId_3" value="7" type="hidden">
+                                                </div>
+                                                <div id="rptrMenu_divSecond_3">
+                                                    <ul id="rptrMenu_rptrChild_3_ulSecond_0">
+                                                        <h4>
+                                                            <a href="https://www.gsmlondon.ac.uk/studying-with-us">Studying with us</a></h4>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/managing-family-life-and-study">Family life</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/earn-while-you-learn">Earn while you learn</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/library-and-information-services">Library and
+                                                            information services</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/get-involved">Get involved. Be active</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/accommodation">Accommodation</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/learning-access-and-wellbeing">Learning access
+                                                            and wellbeing</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/term-dates">Term dates</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/proud-moments-from-our-graduation">Graduation</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/essential-information-for-students">Essential
+                                                            information for students</a></li>
+                                                    </ul>
+                                                    <ul id="rptrMenu_rptrChild_3_ulSecond_1">
+                                                        <h4>
+                                                            <a href="https://www.gsmlondon.ac.uk/careers">Careers Zone</a></h4>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/gsmtemps">Student Ambassadors</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/for-employers">For Employers</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/gsm-london-formation-zone">Formation Zone</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/how-we-help">How we help</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/blog/gsmlondon-careers/">Careers blog</a></li>
+                                                    </ul>
+                                                    <ul id="rptrMenu_rptrChild_3_ulSecond_2">
+                                                        <h4>
+                                                            <a href="https://www.gsmlondon.ac.uk/meet-our-students">Who studies with us</a></h4>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/career-focused-students">Career focused students</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/subject-focused-students">Subject focused students</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/inspiring-parents">Inspiring parents</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/entrepreneurs">Entrepreneurs</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/go-getters">Go-getters</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/life-changers">Life changers</a></li>
+                                                        <li><a href="https://www.gsmlondon.ac.uk/subject-heroes">Student bloggers</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li><a href="https://www.gsmlondon.ac.uk/blog/" target="_self">Blog</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <a href="https://connect.gsmlondon.ac.uk/ops-gen-enquiry-lp" target="_blank" class="hdEnqry hide1199">
+                            ENQUIRE</a>
+                    </div>
+                </div>
+            </nav>
+            <!-- END OF LOGO AND TOP NAV AREA -->
+            <div class="clearBoth">
+            </div>
+            <span class="button actionButton redder sidebarTrigger desktop-hide TrigManu mobnavTog"
+                data-sidebar-id="1" style="margin-top: 25px; margin-left: 32px;">
+                <svg style="fill: #808080!important;">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu">
+                    </use></svg>
+            </span><span class="button actionButton sidebarTrigger TrigSearch srchTogle" style="background: rgba(213, 0, 50, 0.87);
+                margin-top: 25px; margin-left: 0px; margin-right: 2%;"><a href="#">
+                    <img src="images/srch-white.png" id="Img8" style="position: absolute; right: 14px;" />
+                </a></span>
+        </div>
+        <!-- header end -->
+        <div id="maincontentcontainer">
+            <div id="maincontent" class="internal">
+                <div class="section group">
+                    <!--<div class="col span_1_of_3">
+                        <img src="https://www.gsmlondon.ac.uk/images/error-logo.jpg" alt="" />
+                    </div>-->
+                    <!-- END OF LEFT HAND COLUMN -->
+                    <div class="col span_2_of_3 reduced-margin">
+                        <!-- START OF RIGHT HAND COLUMNS -->
+                        <div class="section group">
+                            <div class="error-title">
+                                Sorry, this page could not be found</div>
+                            <div class="error-sub">
+                                You may have found your way to this page via a broken link, miss-typed URL or a
+                                link to an old page.</div>
+                            <div class="error-text">
+                                <p>
+                                    Please return to our <a href="https://www.gsmlondon.ac.uk/">Homepage</a> or one
+                                    of our pages below</p>
+                                <ul>
+                                    <li><i class="fa fa-chevron-right"></i><a href="https://www.gsmlondon.ac.uk/undergraduate">
+                                        Undergraduate</a></li>
+                                    <li><i class="fa fa-chevron-right"></i><a href="https://www.gsmlondon.ac.uk/postgraduate">
+                                        Postgraduate</a></li>
+                                    <li><i class="fa fa-chevron-right"></i><a href="https://www.gsmlondon.ac.uk/professional">
+                                        Professional courses</a></li>
+                                    <li><i class="fa fa-chevron-right"></i><a href="https://www.gsmlondon.ac.uk/english-language">
+                                        English courses</a></li>
+                                    <li><i class="fa fa-chevron-right"></i><a href="https://www.gsmlondon.ac.uk/campuses">
+                                        Campuses</a></li>
+                                    <li><i class="fa fa-chevron-right"></i><a href="https://www.gsmlondon.ac.uk/studying-with-us">
+                                        Studying with us</a></li>
+                                    <li><i class="fa fa-chevron-right"></i><a href="https://www.gsmlondon.ac.uk/careers">
+                                        Careers</a></li>
+                                    <li><i class="fa fa-chevron-right"></i><a href="https://www.gsmlondon.ac.uk/about-us">
+                                        About us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- END OF ROW 6 -->
+                    </div>
+                    <!-- END OF RIGHT HAND COLUMNS -->
+                </div>
+            </div>
+            <!-- END OF MAINCONTENT DIV -->
+        </div>
+        <style type="text/css">
+            .twitter-timeline
+            {
+                height: 160px;
+            }
+            .mid-post-cont iframe
+            {
+                height: 160px !important;
+                min-height: 160px !important;
+            }
+            .mid-post-cont::-webkit-scrollbar
+            {
+                width: 4px;
+                height: 3px;
+            }
+            .mid-post-cont::-webkit-scrollbar-track
+            {
+                background-color: #F61806;
+            }
+            .mid-post-cont::-webkit-scrollbar-track-piece
+            {
+                background-color: #f6f6f6;
+            }
+            .mid-post-cont::-webkit-scrollbar-thumb
+            {
+                height: 50px;
+                background-color: rgb(201, 201, 201);
+                border-radius: 4px;
+            }
+            .mid-post-cont::-webkit-scrollbar-corner
+            {
+                background-color: #F61806;
+            }
+            .mid-post-cont::-webkit-resizer
+            {
+                background-color: #F61806;
+            }
+        </style>
+        <div class="fix-12-12c homebacker" style="padding-top: 24px; padding-bottom: 24px;
+            background: #383838; margin-top: 0px;">
+            <div class="fix-12-12 pd10 ml14 left">
+                <!--<ul class="grid later" style="max-width: 92%!important;">
+                    <li class="col-2-12b" style="padding: 0;">
+                        <p style="color: #ffffff; font-weight: 600;">
+                            About Us</p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/about-us/our-history" style="color: #e1e1e1;">Our
+                                History</a></p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/about-us/accreditations" style="color: #e1e1e1;">
+                                Accreditations</a></p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/about-us/plymouth-university" style="color: #e1e1e1;">
+                                Degrees awarded by the University of Plymouth</a></p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/about-us/vacancies-all" style="color: #e1e1e1;">
+                                Vacancies</a></p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/about-us/news" style="color: #e1e1e1;">News</a></p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/about-us/quality-assurance" style="color: #e1e1e1;">
+                                Quality Assurance</a></p>
+                    </li>
+                    <li class="col-2-12b" style="padding: 0;">
+                        <p style="color: #ffffff; font-weight: 600;">
+                            Study with us</p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/undergraduate" style="color: #e1e1e1;">Undergraduate</a>
+                        </p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/postgraduate" style="color: #e1e1e1;">Postgraduate</a>
+                        </p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/professional" style="color: #e1e1e1;">Professional</a>
+                        </p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/english-language" style="color: #e1e1e1;">English
+                                language</a>
+                        </p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/consolidated-policies-and-regulations" style="color: #e1e1e1;">
+                                Policies and Regulations</a>
+                        </p>
+                    </li>
+                    <li class="col-2-12b" style="padding: 0;">
+                        <p style="color: #ffffff; font-weight: 600;">
+                            Our locations</p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/campuses/greenford-campus/greenford-map-and-directions"
+                                id="rptLocation_aOurLocation_0" style="color: #e1e1e1;">Greenford Campus</a></p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/campuses/greenwich-campus/greenwich-map-and-directions"
+                                id="rptLocation_aOurLocation_1" style="color: #e1e1e1;">Greenwich Campus</a></p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/london-bridge" id="rptLocation_aOurLocation_2"
+                                style="color: #e1e1e1;">London Bridge</a></p>
+                    </li>
+                    <li class="col-2-12b" style="padding: 0;">
+                       &nbsp;
+                    </li>
+                    <li class="col-2-12b" style="padding: 0;float:right;">
+                        <img src="assets/img/qual.png" style="width: 140px;" /></li>
+                </ul>-->
+                <ul class="grid later" style="max-width: 92%!important;">
+                    <li class="col-2-12b" style="padding: 0;">
+                        <p style="color: #ffffff; font-weight: 600;">
+                            About Us</p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/about-us/our-history" style="color: #e1e1e1;">Our History</a>
+                        </p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/about-us/accreditations" style="color: #e1e1e1;">Accreditations</a>
+                        </p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/about-us/degrees-awarded-by-the-university-of-plymouth" style="color: #e1e1e1;">
+                                Degrees awarded by the University of Plymouth</a>
+                        </p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/about-us/vacancies-all" style="color: #e1e1e1;">Vacancies</a>
+                        </p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/about-us/quality-assurance" style="color: #e1e1e1;">Quality Assurance</a>
+                        </p>
+                    </li>
+                    <li class="col-2-12b">
+                        <p style="color: #ffffff; font-weight: 600;">
+                            Study with us
+                        </p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/undergraduate" style="color: #e1e1e1;">Undergraduate</a>
+                        </p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/postgraduate" style="color: #e1e1e1;">Postgraduate</a>
+                        </p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/professional" style="color: #e1e1e1;">Professional</a>
+                        </p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/english-language" style="color: #e1e1e1;">English language</a>
+                        </p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/consolidated-policies-and-regulations" style="color: #e1e1e1;">Policies
+                                and Regulations</a>
+                        </p>
+                    </li>
+                    <li class="col-2-12b">
+                        <p style="color: #ffffff; font-weight: 600;">
+                            Our locations
+                        </p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/campuses/greenford-campus/greenford-map-and-directions" style="color: #e1e1e1;"
+                                id="rptLocation_aOurLocation_0">Greenford Campus</a></p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/campuses/greenwich-campus/greenwich-map-and-directions" style="color: #e1e1e1;"
+                                id="rptLocation_aOurLocation_1">Greenwich Campus</a></p>
+                        <p style="color: #e1e1e1;">
+                            <a href="https://www.gsmlondon.ac.uk/london-bridge" id="rptLocation_aOurLocation_2" style="color: #e1e1e1;">
+                                London Bridge</a></p>
+                    </li>
+                    <li class="col-2-12b">&nbsp; </li>
+                    <li class="col-2-12b " style="float: right;">
+                        <img src="assets/img/qual.png" id="Img9"></li>
+                </ul>
+            </div>
+        </div>
+        <!-- END FOOTER AND CTA SECTION -->
+        <div class="section group bottom-nav ftrBht">
+            <div class="fix-12-12 left">
+                <!--<ul class="padding-left-0">
+                    <li><a href="https://www.gsmlondon.ac.uk/">© GSM London 2017</a></li>
+                    <li><a href="https://www.gsmlondon.ac.uk/accessibility">Accessibility</a></li>
+                    <li><a href="https://www.gsmlondon.ac.uk/cookies">Cookies</a></li>
+                    <li><a href="https://www.gsmlondon.ac.uk/terms-and-conditions">Terms and Conditions</a></li>
+                    <li><a href="https://www.gsmlondon.ac.uk/sitemap">Site map</a></li>
+                    <li><a href="https://www.gsmlondon.ac.uk/about-us">About us</a></li>
+                    <li>Website by <a href="https://www.thewholecaboodle.com/" target="_blank" title="The Whole Caboodle">
+                        The Whole Caboodle</a></li>
+                    <li><i class="fa fa-phone"></i>&nbsp;<span class="rTapNumber116046">020 8516 7850</span></li>
+                </ul>-->
+                <ul class="padding-left-0">
+                    <li><a href="https://www.gsmlondon.ac.uk/">© GSM London 2017</a></li>
+                    <li><a href="https://www.gsmlondon.ac.uk/accessibility">Accessibility</a></li>
+                    <li><a href="https://www.gsmlondon.ac.uk/cookies">Cookies</a></li>
+                    <li><a href="https://www.gsmlondon.ac.uk/gsm-london-privacy-statement">Website Legal
+                        &amp; Privacy Policy</a></li>
+                    <li><a href="https://www.gsmlondon.ac.uk/sitemap">Site map</a></li>
+                    <li><a href="https://www.gsmlondon.ac.uk/about-us">About us</a></li>
+                    <li>Website by <a href="https://www.thewholecaboodle.com/" target="_blank" title="The Whole Caboodle">
+                        The Whole Caboodle</a></li>
+                    <li><i class="fa fa-phone"></i>&nbsp;<span class="rTapNumber116046">020 8516 7850</span></li>
+                </ul>
+            </div>
+            <div class="backtotop">
+                <a class="scrollToTop"></a>
+            </div>
+        </div>
+    </div>
+    <!-- END OF WRAPPER DIV -->
+    <!-- JavaScript at the bottom for fast page loading -->
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+    <script>        window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"  type="text/javascript"><\/script>')</script>
+    <!--[if (lt IE 9) & (!IEMobile)]>
+	<script src="js/selectivizr-min.js"></script>
+	<![endif]-->
+    <script>        $(document).ready(function () { $('.flexslider').flexslider({ animation: "slide" }); $('.nav li ul').hide().removeClass('fallback'); $('.nav li').click(function () { $('ul', this).stop().slideToggle(200); }); $('.button-greybrown').click(function () { $('.button-content').slideToggle(200); $(this).toggleClass("active"); }); $(".my-gsm").click(function () { if ($(this).siblings(".my-gsm-content").is(":hidden")) { $(".my-gsm-content, .call-us-content").hide(); $(this).siblings(".my-gsm-content, .call-us-content").slideToggle(200); } else { $(this).siblings(".my-gsm-content, .call-us-content").hide(); } }); $(".call-us").click(function () { if ($(this).siblings(".call-us-content").is(":hidden")) { $(".my-gsm-content, .my-gsm-content").hide(); $(this).siblings(".call-us-content, .my-gsm-content").slideToggle(200); } else { $(this).siblings(".call-us-content, .my-gsm-content").hide(); } }); $('.fa-search').click(function () { $('.search-dropdown').slideToggle(200); }); $(".fa-bars").on("click", function () { $("nav").slideToggle(); $(this).toggleClass("active"); }); $('.course-finder-button h3').click(function () { $('.course-content').slideToggle(200); }); $('.button-grey').click(function () { $('.button-content').slideToggle(200); $(this).toggleClass("active"); }); $("#tabbed-nav").zozoTabs({ position: "top-left", theme: "flat", rounded: false, shadows: false, size: "large", orientation: "vertical", responsive: false, defaultTab: 'tab1', minWindowWidth: 480, animation: { easing: "easeInOutExpo", duration: 400, effects: "fade"} }); });</script>
+    <script>        (function ($) { })(jQuery);</script>
+    <script>        $("#shortlistToggle").click(function () { $("#shortlist").slideToggle(); });</script>
+    <!-- More Scripts-->
+    <script src="https://www.gsmlondon.ac.uk/js/jquery.flexslider.js" type="text/javascript"></script>
+    <script src="https://www.gsmlondon.ac.uk/js/jquery.easydropdown.js" type="text/javascript"></script>
+    <script src="https://www.gsmlondon.ac.uk/js/jquery.easydropdownnew.js" type="text/javascript"></script>
+    <script src="https://www.gsmlondon.ac.uk/js/responsivegridsystem.js" type="text/javascript"></script>
+    <script src="https://www.gsmlondon.ac.uk/js/jquery.magic-accordion.js" type="text/javascript"></script>
+    <script src="https://www.gsmlondon.ac.uk/js/jquery.colorbox.js" type="text/javascript"></script>
+    <script src="https://www.gsmlondon.ac.uk/js/cssmenuscript.js" type="text/javascript"></script>
+    <script src="https://www.gsmlondon.ac.uk/js/zozo.tabs.js" type="text/javascript"></script>
+    <script src="https://www.gsmlondon.ac.uk/js/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="https://www.gsmlondon.ac.uk/js/jquery.uniform.min.js" type="text/javascript"></script>
+    <style>
+        .scriptiframe
+        {
+        }
+        .scriptiframe iframe
+        {
+            position: absolute;
+            height: 0px;
+        }
+    </style>
+    <script>
+        $(window).load(function () {
+            var WindowsWidth = $(window).width();
+            var Width = '600';
+            if (WindowsWidth < Width) {
+                $(document).ready(function () {
+                    $('#cssmenu > ul > li').removeClass('open');
+                    $('#cssmenu > ul > li > ul').hide();
+                });
+            }
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.backtotop a').click(function () {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+        });       
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.more').hide();
+            $('.showLink').click(function () {
+                $('.more').show();
+                $('.hidelink').show();
+                $('.showLink').hide();
+            });
+            $('.hidelink').click(function () {
+                $('.more').hide();
+                $('.hidelink').hide();
+                $('.showLink').show();
+            });
+        });
+    </script>
+    <style>
+        .showLink
+        {
+            cursor: pointer;
+        }
+        .hidelink
+        {
+            cursor: pointer;
+        }
+    </style>
+    <script src="https://www.gsmlondon.ac.uk/js/MegaMenu.js"></script>
+    <!-- Resource jQuery -->
+    <script type="text/javascript">
+        $(function () {
+            cbpHorizontalMenu.init();
+        });
+    </script>
+    <script src="https://www.gsmlondon.ac.uk/js/courseslide.js"></script>
+    <script src="https://www.gsmlondon.ac.uk/js/quotepop.js" type="text/javascript"></script>
+</body>
+</html>

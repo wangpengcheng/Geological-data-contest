@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+</head>
+    <body>
+        <script type="text/javascript">
+               
+				var xhr =new XMLHttpRequest();
+				xhr.open('GET','http:www.baidu.com',true);
+				xhr.withCredentials =true;
+				xhr.onload =function() {          
+				  alert(xhr.response);//reposHTML;
+				};  
+				xhr.onerror =function() {
+				 alert('error making the request.');
+				};
+				xhr.send();
+
+        </script>
+</body>
+</html>

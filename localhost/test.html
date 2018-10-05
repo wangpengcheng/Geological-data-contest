@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>
+			地质数据接口测试
+		</title>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript">
+    function jsonpCallback(result) {
+        console.log(result);
+    }
+</script>
+<script type="text/javascript" src="http://catalog.ngac.org.cn/clients/getMetadatas?MdIdnt=cgdoi.n0001/x00080686&callback=jsonpCallback"></script>
+	</head>
+	<body>
+		<div id="test_main">
+			显示返回结果
+		</div>
+	</body>
+	<script type="text/javascript">
+	/*
+		$(function(){
+			 $.post("http://catalog.ngac.org.cn/clients/getMetadatas?Auther='谷振峰'",
+			  {
+				KeyWord:"",
+				MdIdnt:"水资源紧缺",
+				Auther:"谷振峰"
+			  },
+				function(data){
+					$("#test_main").html("<b>hello word</b>");
+			  });
+			  
+		});
+		
+		$(function(){
+		function showData (result) {
+             var data = JSON.stringify(result); //json对象转成字符串
+            $("#test_main").val(data);
+         }
+		 var temp_str="http://catalog.ngac.org.cn/clients/getMetadatas?"+"Auther="+'"谷振峰"'+"callback=showData";
+		 var html='<script src='+temp_str+'><\/script>';
+		$("head").append(html);
+		//回调函数
+        });
+		*/
+		//$(function(){
+		/*
+                 $.ajax({
+                     url: "http://catalog.ngac.org.cn/clients/getMetadatas",
+                     type: "GET",
+                     dataType: "jsonp", //指定服务器返回的数据类型
+					 jsonpCallback:"cb",//设置回调函数
+                     success:function(re){alert("出现错误");},
+					 error:function(XMLHttpRequest, textStatus, errorThrown) {
+						   alert(XMLHttpRequest.status);
+						   alert(XMLHttpRequest.readyState);
+						   alert(textStatus);
+						   alert(errorThrown);
+						   }
+                    });
+					function cb(re){ 
+						var jsondata=$.parseJSON(data);
+						console.log(jsondata.errorCode);
+					}//与回调函数名一致
+		
+		function message(re){
+			alert(re);
+		}
+		
+		function handleResponse(response){
+				console.log(response);
+		}
+        var script = document.createElement("script");
+			script.src = "https://api.douban.com/v2/book/search?q=javascript&count=1&callback=handleResponse";
+			document.body.insertBefore(script, document.body.firstChild);   
+			
+			var url='http://catalog.ngac.org.cn/clients/getMetadatas?MdIdnt=cgdoi.n0001/x00080686&callback=?';
+			$.getJSON(url, function(data){
+                console.log(data);
+            });
+			
+			<script type="text/javascript">  
+    function jsonpCallback(result) {  
+        //alert(result);  
+        for(var i in result) {  
+            alert(i+":"+result[i]);//循环输出a:1,b:2,etc.  
+        }  
+    }  
+    var JSONP=document.createElement("script");  
+    JSONP.type="text/javascript";  
+    JSONP.src="http://catalog.ngac.org.cn/clients/getMetadatas?Auther=%22%E8%B0%B7%E6%8C%AF%E5%B3%B0%22&callbackparam=&_=1531570270584";  
+    document.getElementsByTagName("head")[0].appendChild(JSONP);  
+	});*/
+	/*
+	function hello(data){
+            console.log(data);// Object {username: "zhangsan", password: "123456"}
+            console.log(data.username); // zhangsan
+            console.log(data.password); // 123456
+        }
+        var script = document.createElement('script');
+        script.src = 'http://jepson.com/5.php?callback=hello';
+        var head = document.getElementsByTagName('head')[0];
+        head.appendChild(script);
+		*/
+	</script>
+</html>

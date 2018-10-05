@@ -1,0 +1,454 @@
+.mod-tab-quality {
+	padding-top: 5px;
+	-webkit-radius: 0 0 2px 2px;
+	-moz-radius: 0 0 2px 2px;
+	border-radius: 0 0 2px 2px;
+	/*height: 265px;*/
+	color: #f8f6f6;
+}
+
+.mod-tab-quality .block-1 {
+	padding: 2px 3px 3px 0;
+	position: relative;
+	overflow: hidden
+}
+
+.mod-tab-quality .block-1 h4 {
+	/*height: 32px;
+	line-height: 32px;*/
+	font-size: 20px;
+	font-family: Microsoft Yahei;
+	color: #268cea;
+	/*white-space: nowrap;*/
+	margin: 12px
+}
+
+. .mod-tab-quality .block-1 .phrase {
+	text-align: center;
+	height: 52px
+}
+
+.mod-tab-quality .block-1 .phrase div {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	overflow: hidden
+}
+
+.mod-tab-quality .block-1 .phrase .num {
+	font-size: 60px;
+	font-family: Arial;
+	height: 52px;
+	line-height: 52px
+}
+
+.mod-tab-quality .block-1 .phrase .status {
+	font-size: 20px;
+	font-family: Microsoft Yahei;
+	height: 36px;
+	line-height: 36px
+}
+
+.mod-tab-quality .block-1 .aqi-lv1 .num,
+.mod-tab-quality .block-1 .aqi-lv1 .status {
+	color: #3fa800;
+	border: ;
+}
+
+.mod-tab-quality .block-1 .aqi-lv2 .num,
+.mod-tab-quality .block-1 .aqi-lv2 .status {
+	color: #fbd12a
+}
+
+.mod-tab-quality .block-1 .aqi-lv3 .num,
+.mod-tab-quality .block-1 .aqi-lv3 .status {
+	color: #ffa641
+}
+
+.mod-tab-quality .block-1 .aqi-lv4 .num,
+.mod-tab-quality .block-1 .aqi-lv4 .status {
+	color: #eb5b13
+}
+
+.mod-tab-quality .block-1 .aqi-lv5 .num,
+.mod-tab-quality .block-1 .aqi-lv5 .status {
+	color: #960453
+}
+
+.mod-tab-quality .block-1 .aqi-lv6 .num,
+.mod-tab-quality .block-1 .aqi-lv6 .status {
+	color: #580422
+}
+
+.mod-tab-quality .block-1 .remark {
+	height: 18px;
+	line-height: 40px;
+	text-align: center;
+	color: #aaa;
+	font-size: 13px;
+}
+
+.mod-tab-quality .block-1 .progess {
+	width: 330px;
+	height: 50px;
+	background-position: -3px 0;
+	margin: 13px auto 0
+}
+
+.mod-tab-quality .block-1 .progess .panels {
+	position: relative;
+	width: 325px;
+	margin-left: 3px
+}
+
+.mod-tab-quality .block-1 .progess .cur {
+	position: absolute;
+	top: 25px;
+	width: 8px;
+	height: 4px;
+	line-height: 4px;
+	overflow: hidden;
+	margin-left: -5px;
+	background-position: 0 -50px
+}
+
+.mod-tab-quality .block-1 .feature {
+	top: 40px;
+	right: 0;
+	width: 85%;
+	font-size: 14px;
+	margin: 0 auto;
+}
+
+.mod-tab-quality .block-1 .feature p {
+	line-height: 20px;
+	margin-bottom: 10px;
+	color: #bab2b2
+}
+
+.mod-tab-quality .block-1 .feature .warning {
+	color: #dbd8d8;
+	padding-right: 6px
+}
+
+.mod-tab-quality .block-2 {
+	height: 45px;
+	background-color: #e7f2ff;
+	padding: 15px 0 14px 0
+}
+
+.mod-tab-quality .block-2 h5 {
+	float: left;
+	height: 45px;
+	line-height: 45px;
+	font-weight: normal;
+	padding-left: 24px;
+	font-size: 12px
+}
+
+.mod-tab-quality .block-2 .ugm3 {
+	width: 492px;
+	float: left;
+	position: relative;
+	z-index: 1;
+	zoom: 1
+}
+
+.mod-tab-quality .block-2 .ugm3 li {
+	float: left;
+	width: 71px;
+	height: 45px;
+	line-height: 45px;
+	margin-left: 11px;
+	text-align: center;
+	font-family: Arial, SimSun;
+	_display: inline
+}
+
+.mod-tab-quality .block-2 .ugm3 li .name {
+	height: 18px;
+	line-height: 18px;
+	padding: 2px 0;
+	background-color: #86bff2;
+	color: white
+}
+
+.mod-tab-quality .block-2 .ugm3 li .value {
+	height: 22px;
+	line-height: 22px;
+	background-color: white;
+	color: #666;
+	border: solid #d9e8ff;
+	border-width: 0 1px 1px
+}
+
+.mod-tab-quality .block-2 .ugm3 li .doubt {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+	overflow: hidden;
+	vertical-align: middle;
+	margin: -2px 0 0 1px;
+	*margin-top: 0;
+	background-position: -25px -50px
+}
+
+.mod-tab-quality .block-2 .ugm3 #name-pm2-5 .name,
+.mod-tab-quality .block-2 .ugm3 #name-pm10 .name {
+	cursor: pointer
+}
+
+.mod-tab-quality .block-2 .ugm3 #name-pm2-5:hover .name,
+.mod-tab-quality .block-2 .ugm3 #name-pm2-5.hover .name,
+.mod-tab-quality .block-2 .ugm3 #name-pm2-5.cur .name,
+.mod-tab-quality .block-2 .ugm3 #name-pm10:hover .name,
+.mod-tab-quality .block-2 .ugm3 #name-pm10.hover .name,
+.mod-tab-quality .block-2 .ugm3 #name-pm10.cur .name {
+	background-color: #64adf0
+}
+
+.mod-tab-quality .block-2 .ugm3 #name-pm2-5:hover .value,
+.mod-tab-quality .block-2 .ugm3 #name-pm2-5.hover .value,
+.mod-tab-quality .block-2 .ugm3 #name-pm2-5.cur .value,
+.mod-tab-quality .block-2 .ugm3 #name-pm10:hover .value,
+.mod-tab-quality .block-2 .ugm3 #name-pm10.hover .value,
+.mod-tab-quality .block-2 .ugm3 #name-pm10.cur .value {
+	border-color: #64adf0
+}
+
+.mod-tab-quality .block-2 .ugm3 #name-pm2-5:hover .doubt,
+.mod-tab-quality .block-2 .ugm3 #name-pm2-5.hover .doubt,
+.mod-tab-quality .block-2 .ugm3 #name-pm2-5.cur .doubt,
+.mod-tab-quality .block-2 .ugm3 #name-pm10:hover .doubt,
+.mod-tab-quality .block-2 .ugm3 #name-pm10.hover .doubt,
+.mod-tab-quality .block-2 .ugm3 #name-pm10.cur .doubt {
+	background-position: -50px -50px
+}
+
+.mod-tab-quality .block-2 .ugm3 .bubble {
+	display: none;
+	z-index: 1;
+	zoom: 1;
+	position: absolute;
+	width: 322px;
+	line-height: 18px;
+	text-align: left
+}
+
+.mod-tab-quality .block-2 .ugm3 .bubble .part-hd {
+	height: 14px;
+	line-height: 14px;
+	overflow: hidden;
+	background-position: 0 -133px
+}
+
+.mod-tab-quality .block-2 .ugm3 .bubble .part {
+	background: url(../images/local-air-repeaty.png) repeat-y;
+	padding: 0 20px
+}
+
+.mod-tab-quality .block-2 .ugm3 .bubble .part-ft {
+	height: 14px;
+	line-height: 14px;
+	overflow: hidden;
+	background-position: 0 -241px
+}
+
+.mod-tab-quality .block-2 .ugm3 .bubble h6 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 3px
+}
+
+.mod-tab-quality .block-2 .ugm3 .bubble p {
+	font-size: 12px;
+	color: #666
+}
+
+.mod-tab-quality .block-2 .ugm3 .bubble .arr {
+	position: absolute;
+	left: 189px;
+	top: -8px;
+	width: 17px;
+	height: 9px;
+	line-height: 9px;
+	background-position: -37px -125px;
+	overflow: hidden
+}
+
+.mod-tab-quality .block-2 .ugm3 .bubble .closed {
+	display: block;
+	width: 10px;
+	height: 9px;
+	line-height: 9px;
+	overflow: hidden;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	background-position: -75px -50px;
+	cursor: pointer
+}
+
+.mod-tab-quality .block-2 .ugm3 #bubble-pm2-5 {
+	top: 26px;
+	left: -134px
+}
+
+.mod-tab-quality .block-2 .ugm3 #bubble-pm10 {
+	top: 26px;
+	left: -54px
+}
+
+.aqi-lv1{color:#32F43E;}
+.aqi-lv2{color:#E4F33E;}
+.aqi-lv3{color:#E4993E;}
+.aqi-lv4{color:#F10617;}
+.aqi-lv5{color:#99074E;}
+.aqi-lv6{color:#860022;}
+
+
+.op_pm25_level {
+	clear: both;
+	position: relative;
+	height: 4px
+}
+
+.op_pm25_level1,
+.op_pm25_level2,
+.op_pm25_level3,
+.op_pm25_level4,
+.op_pm25_level5,
+.op_pm25_level6 {
+	width: 50px;
+	height: 8px;
+	border-left: 1px solid white;
+	float: left;
+	overflow: hidden
+}
+
+
+
+.op_pm25_i,
+.op_pm25_leveli1,
+.op_pm25_leveli2,
+.op_pm25_leveli3,
+.op_pm25_leveli4,
+.op_pm25_leveli5,
+.op_pm25_leveli6 {
+	width: 10px;
+	height: 5px;
+	border-width: 5px;
+	background: url('http://www.baidu.com/aladdin/img/newpm25/newpm25.png') no-repeat;
+	position: absolute;
+	top: -7px;
+	z-index: 1
+}
+
+.op_pm25_leveli2 {
+	background-position: -10px 0
+}
+
+.op_pm25_leveli3 {
+	background-position: -20px 0
+}
+
+.op_pm25_leveli4 {
+	background-position: -30px 0
+}
+
+.op_pm25_leveli5 {
+	background-position: -40px 0
+}
+
+.op_pm25_leveli6 {
+	background-position: -50px 0
+}
+
+.op_pm25_levelnum {
+	clear: both;
+	color: wheat;
+	padding-top: 2px;
+	font-size: 12px
+}
+
+.op_pm25_levelint {
+	float: left;
+	width: 50px;
+	text-align: right
+}
+
+.op_pm25_levelint span {
+	float: left;
+	margin-left: 1px
+}
+
+.txt01 {
+	width: 90%;
+	background: #1C252D80;
+	background: rgba(28,37,45,.5);
+	padding: 2px 10px 6px;
+	margin: 0 auto;
+	max-height: 350px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.txt01 h4 {
+	float: left;
+	width: 610px;
+	height: 26px;
+	line-height: 28px;
+	overflow: hidden;
+	color: #f60;
+	font-size: 12px;
+}
+
+.txt01 h5 {
+	float: left;
+	width: 610px;
+	height: 36px;
+	line-height: 18px;
+	color: #666;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.txt01 h6 {
+	float: left;
+	width: 610px;
+	height: 24px;
+	line-height: 24px;
+	color: #f60;
+	font-size: 12px;
+	font-weight: 600;
+	border-top: 1px dotted #dedede;
+	margin: 6px 0 0 0;
+	padding: 2px 0 0 0;
+}
+
+.txt01 li {
+	float: left;
+	width: 160px;
+	height: 20px;
+	line-height: 1.5;
+	overflow: hidden;
+	font-size: 12px;
+}
+
+.txt01 td {
+	text-align: center;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.txt01 TD:HOVER {
+	font-weight: bold;
+	/*font-size: 20px;*/
+}
+
+.phrase {
+	padding-left: 10px;
+	/*float: left;*/
+}

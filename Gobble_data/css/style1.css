@@ -1,0 +1,247 @@
+html,
+body {
+	width: 100%;
+	margin: 0px;
+}
+
+
+.op_pm25_level1 {
+	background: #43ce17;
+}
+.op_pm25_level2 {
+	background: #efdc31
+}
+
+.op_pm25_level3 {
+	background: #fa0
+}
+
+.op_pm25_level4 {
+	background: #ff401a
+}
+
+.op_pm25_level5 {
+	background: #d20040
+}
+
+.op_pm25_level6 {
+	background: #9c0a4e
+}
+
+
+
+#subchart {
+	position: absolute;
+	top: 5%;
+    right: 4%;
+	max-width: 375px;
+	max-height: 80%;
+	overflow: auto;
+	background: #17172dcc;
+	background: rgba(17, 15, 45, 0.74);
+}
+
+.chartLegend {
+	position: absolute;
+	bottom: 20px;
+	left: 10px;
+	height: auto;
+	min-width: 60px;
+	z-index: 99999;
+}
+
+.chartLegend ul {
+	margin: 0px;
+	padding: 0px;
+	width: 50px;
+}
+
+.chartLegend ul li {
+	margin: 1.5px;
+	padding: 2px;
+	float: left;
+	font-size: 8px;
+	width: 100%;
+	text-align: center;
+	color: #FFF;
+}
+
+
+/*地图：侧边栏图例样式，结束*/
+
+#tab {
+	position: absolute;
+	z-index: 10;
+	width: 30px;
+	height: auto;
+	opacity: 0.8;
+	top: 10%;
+}
+
+.tab_list {
+	border-radius: 0px 5px 5px 0px;
+	background: #ddd;
+	padding: 5%;
+	padding-left: 5px;
+	cursor: pointer;
+	margin-top: 1px;
+}
+
+.tab_list:hover {
+	background: #00adf8;
+	color: #fff
+}
+
+#tab .ok {
+	color: #fff;
+	background: #2178E1;
+	border: 1px solid #0193ea
+}
+
+#show {
+	position: absolute;
+	z-index: 10;
+	width: 300px;
+	min-width: 200px;
+	max-width: 400px;
+	height: auto;
+	top: 4%;
+    left: 7%;
+	background: #0000001a;
+	background: rgba(0,0,0,.1);
+	padding-bottom: 15px;
+}
+
+.show_title {
+	background: #1087f2;
+	text-align: center;
+	padding: 5px;
+	height: 55px;
+	color: #f5f5f5;
+}
+
+#ud{
+	cursor: pointer;
+	width: 23px;
+	position: absolute;
+	top: 5px;
+	right: 5%;
+	z-index: 2;
+}
+
+.show_title span {
+	font-size: 18px;
+}
+
+.show_title h4 {
+	font-size: 15px;
+	margin: 2px;
+	color: #e6d394;
+}
+
+.show_button {
+	padding: 10px;
+	padding-left: 12%;
+	height: 60px;
+}
+
+.button {
+	float: left;
+	width: 40%;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	border-radius: 10px;
+	cursor: pointer;
+	border: 1px solid #dbdcdd;
+	color: #000;
+	background: #dcdcdc;
+	margin-left: 5px;
+}
+
+.show_button .ok {
+	color: #fff;
+	background: #2178E1;
+	border: 1px solid #0193ea
+}
+
+#table {
+	color: #fff;
+	width: 95%;
+	margin: 0 auto;
+}
+
+table,
+th,
+td {
+	border: 0px;
+	border-bottom: 1px dashed #fff;
+}
+
+#table tr {
+	height: 38px
+}
+
+.table_rank_num {
+	background: #cc7d30;
+	width: 23px;
+	height: 20px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.table_head td {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.bable_city {
+	width: 40%
+}
+
+.bable_aqi {
+	width: 40%
+}
+.help{
+	position: absolute;
+	z-index: 11;
+	background: rgba(0,0,0,0.7);
+	height: 100%;
+	width: 100%;
+	top: 0;
+	display: none;
+}
+#help_img{
+	width: 90%;
+margin: 5%;
+height: 80%;
+}
+.help_button{
+	position: absolute;
+	z-index: 10;
+}
+.help_button img{
+	width: 2%;
+	min-width: 50px;
+	float: left;
+	cursor: pointer;
+}
+.help_text{
+	border: 2px solid #3794d0;
+	color: #fff;
+	width: 180px;
+	height: 40px;
+	text-align: center;
+	border-radius: 60px;
+	font-size: 23px;
+	cursor: pointer;
+	padding-top: 4px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#49afc6), to(#495ed6));
+	background: -moz-linear-gradient(top, #49afc6, #495ed6);
+	background: -webkit-linear-gradient(top, #49afc6 0%,#495ed6 100%);
+  	background: linear-gradient(to bottom, #56aaff 0%,#358cff 100%);
+	position: absolute;
+	right: 10%;
+	bottom: 2%;
+	text-shadow: 2px 2px 5px #333;
+}
